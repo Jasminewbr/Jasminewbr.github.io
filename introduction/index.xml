@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introductions on 文档网站建立</title>
+    <link>https://github.com/Jasminewbr/Jasminewbr.github.io/introduction/</link>
+    <description>Recent content in Introductions on 文档网站建立</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github.com/Jasminewbr/Jasminewbr.github.io/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://github.com/Jasminewbr/Jasminewbr.github.io/introduction/hugo%E6%96%87%E6%A1%A3%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github.com/Jasminewbr/Jasminewbr.github.io/introduction/hugo%E6%96%87%E6%A1%A3%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%8B/</guid>
+      <description>Hugo文档网站建立 Hugo介绍 hugo是基于Go语言的静态网站生成器。有两种方式发布生成的静态网站文件：
+ 放到自己的服务器上提供服务：需要自己购买服务器； 把网站托管到 GitHub Pages：需要将静态页面文件 push 到 GitHub 的博客项目的 gh-pages 分支并确保根目录下有 index.html 文件。  ##Hugo安装
+  首先进入Hugo官网，访问对应的Github仓库下载Hugo的应用程序，下载地址为https://github.com/gohugoio/hugo/releases 。   我的电脑为windows10 64位，因此选择hugo_0.78.2_Windows-64bit.zip   下载完成后解压文件至我的E:\hugo\bin，然后把该路径添加至系统环境变量Path中：    还需要去git官网上下载git插件，以方便后续代码命令输入，例如： -    通过cmd执行hugo version命令验证是否安装成功，如下显示：
+C:\Users\Jasmine22&amp;gt;e: E:\&amp;gt;cd hugo E:\hugo&amp;gt;hugo version Hugo Static Site Generator v0.78.2-959724F0 windows/amd64 BuildDate: 2020-11-13T10:08:15Z
+  ##建立新站点 -在本地安装目录下执行：
+`hugo new site blog`  -然后执行hugo，就显示如下，在blog文件夹中生成了一个public文件夹，其中该文件夹中的内容就是之后将发布到github的
+`E:\hugotest\blog&amp;gt;hugo `Start building sites … | EN -------------------+----- Pages | 60 Paginator pages | 1 Non-page files | 0 Static files | 38 Processed images | 0 Aliases | 22 Sitemaps | 1 Cleaned | 0 Total in 1679 ms`  添加文档主题 -接着继续在hugo官网主题界面选择documentation类型的主题， 从主题网站上点击链接从Github下载到所建立的blog文件夹下的themes目录中，这里有两种方式可以下载，一种通过后台命令窗口直接复制对应的主题代码git clone https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <meta name="generator" content="Hugo 0.78.2" />
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>文档网站建立</title>
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://github.com/Jasminewbr/Jasminewbr.github.iocss/styles.css">
+  
+  <link href="/Jasminewbr/Jasminewbr.github.io/index.xml" rel="alternate" type="application/rss+xml" title="文档网站建立" />
+
+</head>
+<body>
+
+<div class="sidebar sidebar-default">
+    <div class="navigation">
+        <div>
+    Kraiklyn
+</div>
+
+        <h1 class="site-title"><a href="https://github.com/Jasminewbr/Jasminewbr.github.io">文档网站建立</a></h1>
+
+
+        <nav class="internal">
+            <ul>
+    
+        
+            
+    <li>
+        <a href="#">Introductions</a>
+        <ul>
+            
+                
+                    <li><a href="#"></a></li>
+                
+            
+        </ul>
+    </li>
+
+
+
+        
+    
+</ul>
+
+        </nav>
+
+        <nav class="external">
+            <div class="external-title"></div>
+            
+            <ul id="shortcuts">
+                
+                <li>
+                    <a href="https://github.com/Jasminewbr/Jasminewbr.github.io" target="_blank" rel="noopener">Jasminewbr</a>
+                </li>
+                
+                <li>
+                    <a href="https://gohugo.io/documentation/" target="_blank" rel="noopener">Hugo docs</a>
+                </li>
+                
+            </ul>
+            
+        </nav>
+    </div>
+
+    <div class="version">
+            generated on Nov 21, 2020
+    </div>
+</div>
+
+<div class="content">
+    
+        
+            
+    <section class="page" id="">
+    <h1>
+        <a href="#">Introductions</a>
+    </h1>
+    <div class="content">
+        
+    </div>
+</section>
+
+    
+            
+                <section class="page" id="">
+    <h1>
+        <a href="#"></a>
+    </h1>
+    <div class="content">
+        <h1 id="hugo文档网站建立">Hugo文档网站建立</h1>
+<h2 id="hugo介绍">Hugo介绍</h2>
+<p>hugo是基于Go语言的静态网站生成器。有两种方式发布生成的静态网站文件：</p>
+<ul>
+<li>放到自己的服务器上提供服务：需要自己购买服务器；</li>
+<li>把网站托管到 GitHub Pages：需要将静态页面文件 push 到 GitHub 的博客项目的 gh-pages 分支并确保根目录下有 index.html 文件。</li>
+</ul>
+<p><img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=299634975,2536544645&amp;fm=26&amp;gp=0.jpg" alt=""></p>
+<p>##Hugo安装</p>
+<ul>
+<li>
+<p>首先进入Hugo官网，访问对应的<strong>Github仓库</strong>下载Hugo的应用程序，下载地址为<a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases </a>。
+<img src="https://note.youdao.com/yws/api/personal/file/7A953BBDFF7041D38AC0ED0363101C2E?method=download&amp;shareKey=6bc6c4102c845a58d0db237fb1a8f200" alt=""></p>
+</li>
+<li>
+<p>我的电脑为windows10 64位，因此选择<code>hugo_0.78.2_Windows-64bit.zip</code>
+<img src="https://note.youdao.com/yws/api/personal/file/519EDEDE348543F49968C4F1F85168A2?method=download&amp;shareKey=0b1b3021a8b7dce4c1007d8fba71c9cb" alt=""></p>
+</li>
+<li>
+<p>下载完成后解压文件至我的E:\hugo\bin，然后把该路径添加至系统环境变量Path中：
+<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1605949764387&amp;di=cfdfa4b6ff75c1e8b88dcaba2624a71b&amp;imgtype=0&amp;src=http%3A%2F%2Fimg-blog.csdnimg.cn%2F20201109214031530.PNG%3Fx-oss-process%3Dimage%2Fwatermark%2Ctype_ZmFuZ3poZW5naGVpdGk%2Cshadow_10%2Ctext_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0oyWTE2NDE%3D%2Csize_16%2Ccolor_FFFFFF%2Ct_70%23pic_center" alt=""></p>
+</li>
+</ul>
+<ul>
+<li>还需要去git官网上下载git插件，以方便后续代码命令输入，例如：
+-<img src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3374718845,3320398307&amp;fm=15&amp;gp=0.jpg" alt=""></li>
+</ul>
+<ul>
+<li>
+<p>通过cmd执行<code>hugo version</code>命令验证是否安装成功，如下显示：</p>
+<p><code>C:\Users\Jasmine22&gt;e: E:\&gt;cd hugo E:\hugo&gt;hugo version Hugo Static Site Generator v0.78.2-959724F0 windows/amd64 BuildDate: 2020-11-13T10:08:15Z</code></p>
+</li>
+</ul>
+<p><img src="https://note.youdao.com/yws/api/personal/file/701A7C62B22E4D15A3BFE9A9A5B2876F?method=download&amp;shareKey=d5594d44efe1d4d2a32fa4f1f98410ef" alt="">
+##建立新站点
+-在本地安装目录下执行：</p>
+<pre><code>`hugo new site blog`
+</code></pre>
+<p>-然后执行<code>hugo</code>，就显示如下，在blog文件夹中生成了一个public文件夹，其中该文件夹中的内容就是之后将发布到github的</p>
+<pre><code>`E:\hugotest\blog&gt;hugo
+ `Start building sites …
+                  | EN
+ -------------------+-----
+ Pages            | 60
+ Paginator pages  |  1
+ Non-page files   |  0
+ Static files     | 38
+ Processed images |  0
+ Aliases          | 22
+ Sitemaps         |  1
+ Cleaned          |  0
+ Total in 1679 ms`
+</code></pre>
+<h2 id="添加文档主题">添加文档主题</h2>
+<p>-接着继续在hugo官网主题界面选择documentation类型的主题，
+<img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1605949591589&amp;di=163bb884fa43a21c377123ecc13b4885&amp;imgtype=0&amp;src=http%3A%2F%2Fimg2018.cnblogs.com%2Fblog%2F1033328%2F201905%2F1033328-20190513105411063-698289161.png" alt=""></p>
+<p><img src="https://note.youdao.com/yws/api/personal/file/31589039901344BA97AB584EECC9AC89?method=download&amp;shareKey=a8f18c77541cd47e1a3bb3b6e8308156" alt="">
+从主题网站上点击链接从Github下载到所建立的blog文件夹下的themes目录中，这里有两种方式可以下载，一种通过后台命令窗口直接复制对应的主题代码<code>git clone https://github.com/Xzya/hugo-bootstrap.git</code>，另一种是直接下载主题Zip包，然后解压到themes目录下，由于网络的原因，我选择的是第二种方法进行主题的添加，这里我暂时试用的主题是bootie docs和cupper。</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/dad1c5e3c134469789db4ee624cb5fffed0ff663/7cf26/cupper-hugo-theme/screenshot-cupper-hugo-theme_huc10b8c3467703717c95eba9c21235574_137593_1500x1000_fill_catmullrom_top_2.png" alt=""></p>
+<p>-添加完主题之后，检查themes目录下是否成功下载对应主题：</p>
+<pre><code>`E:\hugotest\blog&gt;cd themes
+
+ E:\hugotest\blog\themes&gt;tree
+ 卷 新加卷 的文件夹 PATH 列表
+ 卷序列号为 848D-1FD3
+ E:.
+ ├─bootie
+ │  ├─archetypes
+ │  ├─images
+ │  ├─layouts
+ │  │  ├─partials
+ │  │  ├─section
+ │  │  └─_default
+ │  └─static
+ │      ├─css
+ │      │  └─highlight
+ │      ├─fonts
+ │      └─js
+ └─even
+      ├─archetypes
+      ├─assets
+      │  ├─js
+      │  └─sass
+      │      ├─_common
+      │      ├─_custom
+      │      └─_partial
+      │          ├─_footer
+      │          ├─_header
+      │          └─_post
+      ├─exampleSite
+      │  └─content
+      │      └─post
+      ├─i18n
+      ├─images
+      ├─layouts
+      │  ├─partials
+      │  │  └─post
+      │  ├─post
+      │  ├─shortcodes
+      │  └─_default
+      ├─resources
+      │  └─_gen
+      │      └─assets
+      │          └─scss
+      │              └─sass
+      └─static
+          ├─fonts
+          │  ├─chancery
+          │  └─iconfont
+          ├─img
+          │  └─reward
+          └─lib
+              ├─fancybox
+              ├─flowchartDiagrams
+              ├─highlight
+              ├─jquery
+              ├─js-sequence-diagrams
+              ├─slideout
+              └─timeago`
+</code></pre>
+<p>-通过在blog目录下输入<code>hugo server</code>，出现如下显示，即代表blog网站创建成功：</p>
+<pre><code>                    | EN
+ -------------------+-----
+   Pages            |  3
+   Paginator pages  |  0
+   Non-page files   |  0
+   Static files     |  0
+   Processed images |  0
+   Aliases          |  0
+   Sitemaps         |  1
+   Cleaned          |  0
+Built in 19 ms
+Watching for changes in E:\hugo_blog\{archetypes,content,data,layouts,static}
+Watching for config changes in E:\hugo_blog\config.toml
+Environment: &quot;development&quot;
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:64930/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+</code></pre>
+<p>通过访问地址<code>http://localhost:64930/</code>即可在浏览器上查看到该主题下的网页博客状态，后续还可以替换适配不同主题</p>
+<p>##Hugo结合Github page</p>
+<ul>
+<li>首先在github上新建一个空的仓库用户存放Hugo</li>
+<li><img src="https://note.youdao.com/yws/api/personal/file/CB6BFF81CEAF46F288F5370141F0E792?method=download&amp;shareKey=5c645bdb91d0ce68f68ebbe16c455e39" alt=""></li>
+<li>输入与所创建的github一致的用户名称，这里我创建的为<code>Jasminewbr.github.io</code></li>
+</ul>
+<p>-然后命令窗口进入public文件夹<code>cd public</code>，并执行以下代码：</p>
+<pre><code> `cd public
+
+  git init
+
+  git remote add origin github项目地址
+
+  git add -A
+
+  git commit -m &quot;first commit&quot;
+
+  git push -u origin master``
+</code></pre>
+<h2 id="进入网页查看文档网站情况">进入网页查看文档网站情况</h2>
+<p>如图片所示，可以看到<code>Jasmine.github.io</code>域名已经成功暴露该网站到外网。
+<img src="https://note.youdao.com/yws/api/personal/file/3E8CBE122B9947128C074487FF47EE34?method=download&amp;shareKey=05cb5c6932f6c93216cf6c5b00d19f40" alt="">
+这里暂时使用的主题，还未对内容进行添加，下一步就是对文档网站内容进行补充。</p>
+
+    </div>
+</section>
+
+            
+    
+
+
+
+        
+    
+</div>
+</body>
+</html>
+
